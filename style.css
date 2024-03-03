@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: url('Icons/images/baground.jpg');
+    background-size: cover; /* Adjusts the size of the background image to cover the entire element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Positions the background image at the center of the element */
+    background-attachment: fixed; 
+    
+}
+
+.card{
+    width: 50%;
+    max-width: 500px;
+    /* max-height: 150px; */
+    background: linear-gradient(135deg, #f4b0f6, #70ebe3);
+    color: #fff;
+    margin: 50px auto 0;
+    border-radius:20px; 
+    padding: 50px 45px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+}
+
+.search input{
+
+    border: 0;
+    outline: 0;
+    width: 400px;
+    background: #ebfffc;
+    padding: 10px 25px;
+    color: #555;
+    height: 60px;
+    border-radius: 30px;
+    float: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    align-items: flex-start;
+
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search img{
+    width: 25px;
+}
